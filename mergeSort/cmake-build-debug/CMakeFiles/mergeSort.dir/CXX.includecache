@@ -9,7 +9,7 @@
 /Users/mac/Desktop/2021.Autumn/code/mergeSort/mergeSort.cpp
 iostream
 -
-string
+cmath
 -
 testCaseGen.h
 /Users/mac/Desktop/2021.Autumn/code/mergeSort/testCaseGen.h

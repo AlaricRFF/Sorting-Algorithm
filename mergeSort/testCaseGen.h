@@ -46,4 +46,5 @@ void fillRandArr(int * arr, size_t length, int init){
     }
 }
 
+
 #endif //MERGESORT_TESTCASEGEN_H
