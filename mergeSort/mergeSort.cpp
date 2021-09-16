@@ -3,7 +3,7 @@
 #include "testCaseGen.h"
 using namespace std;
 
-void showArr( int* Arr, int length){
+void showArr(  int* Arr, int length){
     int *arr = Arr;
     cout << "your array: ";
     for (int i = 0; i < length; ++i) {
@@ -16,13 +16,15 @@ int* merge(int *Arr1, int *Arr2, int length_1, int length_2);
 
 /// main
 int main() {
+
+    int * arr = randArray(10,20);
     int l_1, l_2;
     cin >> l_1 >> l_2;
     int *arr_1 = randArray(l_1,l_2),
         *arr_2 = randArray(l_2,l_1);
     showArr(arr_1,l_1);
     showArr(arr_2,l_2);
-
+    delete [] arr; //
     return 0;
 }
 /// main

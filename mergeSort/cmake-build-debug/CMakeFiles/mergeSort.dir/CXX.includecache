@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Desktop/2021.Autumn/code/mergeSort/mergeSort.cpp
+iostream
+-
+string
+-
+testCaseGen.h
+/Users/mac/Desktop/2021.Autumn/code/mergeSort/testCaseGen.h
+
+/Users/mac/Desktop/2021.Autumn/code/mergeSort/testCaseGen.h
+random
+-
+cmath
+-
+ctime
+-
+cstdio
+-
+cstdlib
+-
+random
+-
+
